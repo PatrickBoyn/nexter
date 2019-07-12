@@ -13,3 +13,16 @@ $dark-brown-color-2: #6d5d4b;
 // Font variables
 $primary-font: 'Nunito', sans-serif;
 $font-display: 'Josefine Sans', sans-serif;
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
