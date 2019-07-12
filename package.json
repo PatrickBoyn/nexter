@@ -4,10 +4,11 @@
   "description": "\"A simple grid landing page.\"",
   "main": "app.js",
   "scripts": {
-    "scss": "node-sass sass/main.scss css/style.comp.css",
+    "scss": "node-sass sass/main.scss css/style.css -w",
+    "compile:sass": "node-sass sass/main.scss css/style.comp.css",
     "prefix:css": "postcss --use autoprefixer -b 'last 10 versions' css/style.comp.css -o css/style.prefix.css",
     "compress:css": "node-sass css/style.prefix.css css/style.css --output-style compressed",
-    "build:css": "npm-run-all scss prefix:css compress:css"
+    "build:css": "npm-run-all compile:sass prefix:css compress:css"
   },
   "author": "Patrick Boynton",
   "license": "ISC",
