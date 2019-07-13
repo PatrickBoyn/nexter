@@ -47,4 +47,10 @@ body {
     )
     [center-end]
     1fr [full-end];
+
+  // For development purposes
+  & > * {
+    padding: 40px;
+    font-size: 3rem;
+  }
 }
