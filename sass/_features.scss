@@ -5,3 +5,12 @@
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 6rem;
 }
+
+.features {
+  &__icon {
+  }
+
+  &__text {
+    font-size: 1.7rem;
+  }
+}
