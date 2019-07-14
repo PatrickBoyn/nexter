@@ -14,4 +14,9 @@
 }
 .heading-4 {
   @extend %heading;
+  font-style: 1.9rem;
+
+  &--light {
+    color: $light-grey-color-1;
+  }
 }
