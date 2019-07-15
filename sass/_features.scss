@@ -10,7 +10,7 @@
   display: grid;
   grid-template-columns: min-content 1fr;
   grid-gap: 1.5rem;
-
+  align-items: start;
   &__icon {
     fill: $primary-color;
     width: 4.5rem;

@@ -54,7 +54,8 @@ body {
 .feature {
   display: grid;
   grid-template-columns: min-content 1fr;
-  grid-gap: 1.5rem; }
+  grid-gap: 1.5rem;
+  align-items: start; }
   .feature__icon {
     fill: #c69963;
     width: 4.5rem;
