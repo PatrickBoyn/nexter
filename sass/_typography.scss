@@ -44,4 +44,9 @@
   text-transform: uppercase;
   padding: 1.8rem 3rem;
   cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.btn:hover {
+  background-color: $primary-color-dark;
 }
