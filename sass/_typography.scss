@@ -10,6 +10,7 @@
   @extend %heading;
   font-size: 4rem;
   font-style: italic;
+  line-height: 1;
   &--light {
     color: $light-grey-color-1;
   }
