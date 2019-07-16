@@ -19,6 +19,9 @@
 }
 .heading-3 {
   @extend %heading;
+  font-size: 1.6rem;
+  color: $primary-color;
+  text-transform: uppercase;
 }
 .heading-4 {
   @extend %heading;
