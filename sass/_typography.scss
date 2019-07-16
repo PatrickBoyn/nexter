@@ -10,6 +10,12 @@
   @extend %heading;
   font-size: 4rem;
   font-style: italic;
+  &--light {
+    color: $light-grey-color-1;
+  }
+  &--dark {
+    color: $dark-brown-color-1;
+  }
 }
 .heading-3 {
   @extend %heading;
